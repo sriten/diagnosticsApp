@@ -12,4 +12,16 @@ yarn install
 yarn start
 ```
 
-This will install all the necessary dependencies for the `client` front-end project and start it up. Luckily the front-end is using `react-scripts` so it ca
+This will install all the necessary dependencies for the `client` front-end project and start it up. The app will load up using `parcel`.
+
+## Starting the API
+
+In a separate tab in your terminal, execute the following commands:
+
+```
+cd api
+yarn install
+yarn watch
+```
+
+This will install all the necessary dependencies and start the node application using `ts-node` and `nodemon`.
