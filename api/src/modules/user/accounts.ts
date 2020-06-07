@@ -21,7 +21,8 @@ export const setUpAccounts = (connection: any) => {
   });
 
   const accountsServer = new AccountsServer(
-    { db: accountsDb, tokenSecret: process.env.ACCOUNTS_SECRET },
+    // db: accountsDb,
+    { tokenSecret: process.env.ACCOUNTS_SECRET },
     {
       password: accountsPassword
     }
