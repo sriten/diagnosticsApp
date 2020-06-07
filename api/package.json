@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "GraphQL API for medium project example",
   "main": "src/index.ts",
-  "author": "Michael Sholty",
+  "author": "Sri Tenjarla",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "scripts": {
     "start": "ts-node src/index.ts",
     "watch": "nodemon -e ts -w ./src -x npm start"
@@ -28,10 +28,10 @@
   },
   "dependencies": {
     "@accounts/database-manager": "^0.13.0",
-    "@accounts/graphql-api": "^0.13.0",
+    "@accounts/graphql-api": "^0.27.0",
     "@accounts/mongo": "^0.13.0",
     "@accounts/password": "^0.13.0",
-    "@accounts/server": "^0.13.0",
+    "@accounts/server": "^0.27.0",
     "@graphql-modules/core": "^0.7.5",
     "apollo-server": "^2.6.1",
     "apollo-server-express": "^2.6.1",
