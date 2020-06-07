@@ -24,3 +24,5 @@ export function Sidebar() {
     </nav>
   );
 }
+
+// Side bar is loaded from here.
