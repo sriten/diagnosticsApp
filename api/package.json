@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "GraphQL API for medium project example",
   "main": "src/index.ts",
-  "author": "Michael Sholty",
+  "author": "Sri Tenjarla",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "scripts": {
     "start": "ts-node src/index.ts",
     "watch": "nodemon -e ts -w ./src -x npm start"

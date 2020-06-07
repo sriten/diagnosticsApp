@@ -1,12 +1,12 @@
 {
-  "name": "medium-react-typescript-mongo-example",
+  "name": "diagnostics-app",
   "version": "1.0.0",
-  "description": "Repo demonstrating docker-compose orchestration",
+  "description": "diagnostics app uses mongodb for persistence, react for ui, graphQL for api and docker-compose for orchestration.",
   "main": "index.js",
-  "repository": "git@gitlab.com:msholty-fd/medium-react-typescript-mongo-example.git",
-  "author": "Michael Sholty <mike.sholty@me.com>",
+  "repository": "https://github.com/sriten/diagnostics-app.git",
+  "author": "Sri Tenjarla <sritenyo@gmail.com>",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "devDependencies": {
     "husky": "3.0.0",
     "prettier": "1.18.2",

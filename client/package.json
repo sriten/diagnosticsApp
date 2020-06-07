@@ -1,7 +1,8 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
+  "author": "Sri Tenjarla",
   "license": "MIT",
   "dependencies": {
     "apollo-cache-inmemory": "^1.6.2",
