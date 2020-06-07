@@ -31,7 +31,7 @@
     "@accounts/client": "^0.15.0",
     "@accounts/client-password": "^0.15.0",
     "@accounts/graphql-client": "^0.15.0",
-    "@graphql-codegen/cli": "1.4.0",
+    "@graphql-codegen/cli": "^1.15.1",
     "@graphql-codegen/typescript": "1.4.0",
     "@graphql-codegen/typescript-operations": "1.4.0",
     "@graphql-codegen/typescript-react-apollo": "1.4.0",
@@ -41,7 +41,7 @@
     "@types/react-dom": "16.8.4",
     "@types/react-router-dom": "^4.3.4",
     "autoprefixer": "9.6.1",
-    "parcel-bundler": "1.12.3",
+    "parcel-bundler": "^1.12.4",
     "postcss-modules": "1.4.1"
   }
 }
