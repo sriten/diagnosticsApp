@@ -9,3 +9,6 @@ RUN yarn
 EXPOSE 4000
 
 CMD ["yarn", "watch"]
+
+
+
